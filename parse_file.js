@@ -8,27 +8,18 @@ const locations = load_locations_coordinates('locations.txt');
 
 // Once for each location
 for (let i = 1; i < 12; i++) {
-	// Load packets from file
-	const location = load_packet_data(`location${i}.txt`);
-
-	const spreading_factorA = [];
-	const spreading_factorB = [];
-
 	console.log(`Location ${i}, ${distance_across_spherical_globe(starting_point, locations[i-1])}km: `);
-	location.forEach(packet => {
-		const signal_data = packet.metadata.gateways
-				.filter(g => g.gtw_id == 'eui-7276fffffe0103f0') // Only the gateway we want
-				.map(g => {return {
-					rssi: g.rssi,
-					snr: g.snr,
-					channel: g.channel
-				}}); // Only grab the RSSI and SNR
-			console.log(packet.metadata.data_rate, signal_data);
-		if (signal_data.length > 0) {
-			//if (packet.metadata.data_rate == "SF7BW125")
 
-		}
-	});
+	// Load packets from file
+	const packets = load_packet_data(`location${i}.txt`);
+
+	// Filter packets for signal info at this gateway ID and sort by spreading factor
+	const signal_data = extract_signal_data(packets, 'eui-7276fffffe0103f0');
+	
+	const sf7_rssi = average_values(signal_data.spreading_factor7.map(d => d.rssi));
+	const sf12_rssi = average_values(signal_data.spreading_factor12.map(d => d.rssi));
+
+	console.log("Average RSSI: SF7", sf7_rssi, "SF12", sf12_rssi);
 }
 
 // Load JSON data from text file.
@@ -37,6 +28,47 @@ function load_packet_data(file) {
 	const strings = fs.readFileSync(file, 'utf-8').replace(/^{/gm, "elec6245wirelessnetworks{").split("elec6245wirelessnetworks");
 	strings.shift(); // Remove initial blank element from first { 
 	return strings.map(i => JSON.parse(i));
+}
+
+// Filter relevant info from packets
+// Gets only packets received at the target gateway ID
+// Ignores all data other than RSSI, SNR and channel
+// Ignores packets that were received at all
+// Sorts them by spreading factor
+function extract_signal_data(packets, gateway_id) {
+	let spreading_factorA = [];
+	let spreading_factorB = [];
+
+	// For each packet in location
+	packets.forEach(packet => {
+		// Loop through all gateways the packet was received at
+		const signal_data = packet.metadata.gateways
+			.filter(g => g.gtw_id == gateway_id) // Only the gateway we want
+			.map(g => {return {
+				rssi: g.rssi,
+				snr: g.snr,
+				channel: g.channel
+			}}) // Only grab the RSSI and SNR and channel
+			.filter(g => g.rssi != 0); // RSSI == 0 is an anomaly in our data
+		// Sort into relevant spreading factors
+		if (signal_data.length > 0) {
+			if (packet.metadata.data_rate == "SF7BW125")
+				spreading_factorA = spreading_factorA.concat(signal_data);
+			else if (packet.metadata.data_rate == "SF12BW125")
+				spreading_factorB = spreading_factorB.concat(signal_data);
+			else
+				console.log("oops");
+		}
+	});
+	return {
+		spreading_factor7: spreading_factorA,
+		spreading_factor12: spreading_factorB
+	};
+}
+
+// Average values in array
+function average_values(values) {
+	return values.reduce((acc, value) => acc += value, 0) / values.length;
 }
 
 // Calculate the distance across the earth (assuming a sphere) using the haversine 
