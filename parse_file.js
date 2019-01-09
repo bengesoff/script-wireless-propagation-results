@@ -6,9 +6,10 @@ const starting_point = {lat: 50.93536, long: -1.39401};
 // Coordinates of each reading
 const locations = load_locations_coordinates('locations.txt');
 
+console.log("Distance (km),Average RSSI @ SF7,Average SNR @ SF7,Average RSSI @ SF12,Average SNR @ SF12");
 // Once for each location
 for (let i = 1; i < 12; i++) {
-	console.log(`Location ${i}, ${distance_across_spherical_globe(starting_point, locations[i-1])}km: `);
+	//console.log(`Location ${i}, ${distance_across_spherical_globe(starting_point, locations[i-1])}km: `);
 
 	// Load packets from file
 	const packets = load_packet_data(`location${i}.txt`);
@@ -21,8 +22,15 @@ for (let i = 1; i < 12; i++) {
 	const sf7_snr = average_values(signal_data.spreading_factor7.map(d => d.snr));
 	const sf12_snr = average_values(signal_data.spreading_factor12.map(d => d.snr));
 
-	console.log("Average RSSI: SF7", sf7_rssi, "SF12", sf12_rssi);
-	console.log("Average SNR: SF7", sf7_snr, "SF12", sf12_snr);
+	//console.log("Average RSSI: SF7", sf7_rssi, "SF12", sf12_rssi);
+	//console.log("Average SNR: SF7", sf7_snr, "SF12", sf12_snr);
+	
+	console.log([
+		distance_across_spherical_globe(starting_point, locations[i-1]),
+		sf7_rssi || '',
+		sf7_snr || '',
+		sf12_rssi || '',
+		sf12_snr || ''].join(","));
 }
 
 // Load JSON data from text file.
