@@ -18,8 +18,11 @@ for (let i = 1; i < 12; i++) {
 	
 	const sf7_rssi = average_values(signal_data.spreading_factor7.map(d => d.rssi));
 	const sf12_rssi = average_values(signal_data.spreading_factor12.map(d => d.rssi));
+	const sf7_snr = average_values(signal_data.spreading_factor7.map(d => d.snr));
+	const sf12_snr = average_values(signal_data.spreading_factor12.map(d => d.snr));
 
 	console.log("Average RSSI: SF7", sf7_rssi, "SF12", sf12_rssi);
+	console.log("Average SNR: SF7", sf7_snr, "SF12", sf12_snr);
 }
 
 // Load JSON data from text file.
@@ -52,11 +55,15 @@ function extract_signal_data(packets, gateway_id) {
 			.filter(g => g.rssi != 0); // RSSI == 0 is an anomaly in our data
 		// Sort into relevant spreading factors
 		if (signal_data.length > 0) {
-			if (packet.metadata.data_rate == "SF7BW125")
-				spreading_factorA = spreading_factorA.concat(signal_data);
-			else if (packet.metadata.data_rate == "SF12BW125")
-				spreading_factorB = spreading_factorB.concat(signal_data);
-			else
+			if (packet.metadata.data_rate == "SF7BW125") {
+				// Sort by SNR
+				const best_channel = signal_data.sort((a,b) => a.snr - b.snr)[0];
+				spreading_factorA.push(best_channel);
+			} else if (packet.metadata.data_rate == "SF12BW125") {
+				// Sort by SNR
+				const best_channel = signal_data.sort((a,b) => a.snr - b.snr)[0];
+				spreading_factorB.push(best_channel);
+			} else
 				console.log("oops");
 		}
 	});
