@@ -25,7 +25,7 @@ for (let i = 1; i < 12; i++) {
 				}}); // Only grab the RSSI and SNR
 			console.log(packet.metadata.data_rate, signal_data);
 		if (signal_data.length > 0) {
-			//if (packet.metadata.data_rate == "SF7BW768")
+			//if (packet.metadata.data_rate == "SF7BW125")
 
 		}
 	});
@@ -64,7 +64,7 @@ function load_locations_coordinates(file) {
 	return fs.readFileSync(file, 'utf-8')
 		.split('\n').filter(l => l != "") // iterate over lines
 		.map(l => {
-			const components = l.split(', '); if (components.length != 2) console.log("shit");
+			const components = l.split(', '); if (components.length != 2) console.log("oops");
 			return {
 				lat: parseFloat(components[0]),
 				long: parseFloat(components[1])
