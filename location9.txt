@@ -1,0 +1,2125 @@
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      104,
+      2,
+      15,
+      238,
+      0,
+      0,
+      30,
+      144,
+      1,
+      0,
+      90,
+      228,
+      193,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:50:36.377670036Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1348120716,
+        "fine_timestamp": 243450081,
+        "fine_timestamp_encrypted": "SDRdKIGsh9khShA4vbQM0Q==",
+        "time": "2018-12-14T14:50:35.301966Z",
+        "channel": 5,
+        "rssi": -117,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39978,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      89,
+      2,
+      13,
+      238,
+      0,
+      0,
+      30,
+      144,
+      1,
+      0,
+      254,
+      194,
+      195,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:51:02.46287489Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1374203276,
+        "fine_timestamp": 326010860,
+        "fine_timestamp_encrypted": "QR8EdqMdkT8UPkl8FN7VXw==",
+        "time": "2018-12-14T14:51:01.384527Z",
+        "channel": 5,
+        "rssi": -117,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39978,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1635404620,
+        "fine_timestamp": 326011991,
+        "fine_timestamp_encrypted": "oY3Y/bgpXLyHhaxQ2pKSnw==",
+        "time": "2018-12-14T14:51:02.38453Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -122,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93533,
+        "longitude": -1.39402,
+        "altitude": 58
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 1,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      70,
+      2,
+      223,
+      238,
+      0,
+      0,
+      36,
+      144,
+      1,
+      0,
+      104,
+      39,
+      200,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:51:33.125538295Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1404400900,
+        "fine_timestamp": 523642544,
+        "fine_timestamp_encrypted": "bIcr72JgH7H7tiXIiveV2Q==",
+        "time": "2018-12-14T14:51:31.582153Z",
+        "channel": 7,
+        "rssi": -119,
+        "snr": -2,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39977,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1404400900,
+        "time": "2018-12-14T14:51:31.582153Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": 0,
+        "snr": -6.8,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39977,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 1,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      55,
+      2,
+      82,
+      239,
+      0,
+      0,
+      32,
+      144,
+      1,
+      0,
+      206,
+      230,
+      205,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:52:02.87279879Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1695794452,
+        "fine_timestamp": 715886216,
+        "fine_timestamp_encrypted": "QJu29AXYstQ3sGGfteLZeg==",
+        "time": "2018-12-14T14:52:02.774397Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -119,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93534,
+        "longitude": -1.39403,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1434593140,
+        "fine_timestamp": 715883721,
+        "fine_timestamp_encrypted": "VXEIDGs9ranzdzzqsZaTSw==",
+        "time": "2018-12-14T14:52:01.774395Z",
+        "channel": 6,
+        "rssi": -117,
+        "snr": 0,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39977,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1434593140,
+        "fine_timestamp": 715921567,
+        "fine_timestamp_encrypted": "qBq5v9oAhNemB6x/56pYuw==",
+        "time": "2018-12-14T14:52:01.774395Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -127,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39977,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 1,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      55,
+      2,
+      82,
+      239,
+      0,
+      0,
+      32,
+      144,
+      1,
+      0,
+      206,
+      230,
+      205,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:52:07.688146958Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1439354420,
+        "fine_timestamp": 477166818,
+        "fine_timestamp_encrypted": "BdLIkxcB6BV3Lt65HgSOhw==",
+        "time": "2018-12-14T14:52:06.535675Z",
+        "channel": 7,
+        "rssi": -119,
+        "snr": -1,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1439354420,
+        "fine_timestamp": 477168665,
+        "fine_timestamp_encrypted": "PQMljo18v2HF9mzuIWLprA==",
+        "time": "2018-12-14T14:52:06.535675Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -124,
+        "snr": -6,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 2,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      31,
+      2,
+      118,
+      242,
+      0,
+      0,
+      31,
+      144,
+      1,
+      0,
+      67,
+      102,
+      213,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:52:33.081941135Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1464800228,
+        "fine_timestamp": 922970495,
+        "fine_timestamp_encrypted": "wyNw73M7jxvabOtTz7WypQ==",
+        "time": "2018-12-14T14:52:31.981485Z",
+        "channel": 7,
+        "rssi": -119,
+        "snr": -2,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1464800228,
+        "fine_timestamp": 922972956,
+        "fine_timestamp_encrypted": "aCxeplvLscE/IF/htHhnSw==",
+        "time": "2018-12-14T14:52:31.981485Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -126,
+        "snr": -7,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 3,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      8,
+      2,
+      223,
+      244,
+      0,
+      0,
+      34,
+      144,
+      1,
+      0,
+      125,
+      49,
+      217,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:53:03.270596704Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1756211060,
+        "fine_timestamp": 132523127,
+        "fine_timestamp_encrypted": "vXjlxuXK/ZrGrLeCvHdSVg==",
+        "time": "2018-12-14T14:53:03.19104Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -122,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93532,
+        "longitude": -1.39403,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1495009780,
+        "fine_timestamp": 132522206,
+        "fine_timestamp_encrypted": "mV4AnEx3h9NnEswVSP0A/Q==",
+        "time": "2018-12-14T14:53:02.191039Z",
+        "channel": 5,
+        "rssi": -119,
+        "snr": -1,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1495009780,
+        "fine_timestamp": 132521174,
+        "fine_timestamp_encrypted": "57B1YLD40ngH2Myzb2SvLQ==",
+        "time": "2018-12-14T14:53:02.191039Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -124,
+        "snr": -6,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 60
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 3,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      8,
+      2,
+      223,
+      244,
+      0,
+      0,
+      34,
+      144,
+      1,
+      0,
+      125,
+      49,
+      217,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:53:06.680764645Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1498366212,
+        "fine_timestamp": 488958859,
+        "fine_timestamp_encrypted": "UD31xEkBz//TvO5SMfKn1Q==",
+        "time": "2018-12-14T14:53:05.547471Z",
+        "channel": 7,
+        "rssi": -120,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93462,
+        "longitude": -1.39978,
+        "altitude": 58
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1498366212,
+        "fine_timestamp": 488961504,
+        "fine_timestamp_encrypted": "Y+J/CdWl1QgcKibhlUeEzQ==",
+        "time": "2018-12-14T14:53:05.547471Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -124,
+        "snr": -6,
+        "rf_chain": 0,
+        "latitude": 50.93462,
+        "longitude": -1.39978,
+        "altitude": 58
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 4,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      16,
+      2,
+      235,
+      243,
+      0,
+      0,
+      27,
+      144,
+      1,
+      0,
+      200,
+      112,
+      218,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:53:33.524443696Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1525215692,
+        "fine_timestamp": 338434812,
+        "fine_timestamp_encrypted": "Zk8hKLuGjlMQy+2sMfA1wA==",
+        "time": "2018-12-14T14:53:32.396953Z",
+        "channel": 5,
+        "rssi": -126,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93462,
+        "longitude": -1.39978,
+        "altitude": 58
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1525215692,
+        "fine_timestamp": 338433066,
+        "fine_timestamp_encrypted": "7xYCzOzdZZ6qr86lPQqM3Q==",
+        "time": "2018-12-14T14:53:32.396953Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -121,
+        "snr": -2,
+        "rf_chain": 0,
+        "latitude": 50.93462,
+        "longitude": -1.39978,
+        "altitude": 58
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1786416956,
+        "fine_timestamp": 338434324,
+        "fine_timestamp_encrypted": "g73I+G01zWbrEzEWeNDH5w==",
+        "time": "2018-12-14T14:53:33.396954Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -123,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93533,
+        "longitude": -1.39403,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 4,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      16,
+      2,
+      235,
+      243,
+      0,
+      0,
+      27,
+      144,
+      1,
+      0,
+      200,
+      112,
+      218,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:53:36.782788318Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1528490308,
+        "fine_timestamp": 613052979,
+        "fine_timestamp_encrypted": "VrrG6biarRDnL0M8004C5Q==",
+        "time": "2018-12-14T14:53:35.671569Z",
+        "channel": 7,
+        "rssi": -122,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39978,
+        "altitude": 59
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1528490308,
+        "time": "2018-12-14T14:53:35.671569Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": 0,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39978,
+        "altitude": 59
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 5,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      19,
+      2,
+      209,
+      243,
+      0,
+      0,
+      33,
+      144,
+      1,
+      0,
+      135,
+      229,
+      216,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:54:07.637618694Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1820560780,
+        "fine_timestamp": 482284225,
+        "fine_timestamp_encrypted": "Ehd94fWr76wlXF8X2OSHAg==",
+        "time": "2018-12-14T14:54:07.540798Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -117,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93533,
+        "longitude": -1.39402,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1559359532,
+        "fine_timestamp": 482282192,
+        "fine_timestamp_encrypted": "idH40lqzADt04tIh0VtEcA==",
+        "time": "2018-12-14T14:54:06.540795Z",
+        "channel": 6,
+        "rssi": -118,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39977,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 5,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      11,
+      2,
+      247,
+      245,
+      0,
+      0,
+      32,
+      144,
+      1,
+      0,
+      98,
+      200,
+      208,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:54:33.900109837Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1585593772,
+        "fine_timestamp": 716526066,
+        "fine_timestamp_encrypted": "hkuvx8fVGpgxqBE08rmZWQ==",
+        "time": "2018-12-14T14:54:32.775036Z",
+        "channel": 7,
+        "rssi": -119,
+        "snr": -1,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39977,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 5,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      11,
+      2,
+      247,
+      245,
+      0,
+      0,
+      32,
+      144,
+      1,
+      0,
+      98,
+      200,
+      208,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:54:38.971551101Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1590662340,
+        "fine_timestamp": 785090925,
+        "fine_timestamp_encrypted": "LVC56Ztf68adaEQnhW8ziA==",
+        "time": "2018-12-14T14:54:37.843605Z",
+        "channel": 7,
+        "rssi": -118,
+        "snr": -6,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39976,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1590662340,
+        "time": "2018-12-14T14:54:37.843605Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": 0,
+        "snr": -5.8,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39976,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 5,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      232,
+      1,
+      77,
+      246,
+      0,
+      0,
+      22,
+      144,
+      1,
+      0,
+      237,
+      181,
+      207,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:55:04.071625526Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1615782876,
+        "fine_timestamp": 905631905,
+        "fine_timestamp_encrypted": "Gh8hVn5OU22XREJcte2WeQ==",
+        "time": "2018-12-14T14:55:02.964142Z",
+        "channel": 7,
+        "rssi": -124,
+        "snr": -7,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39976,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1615782876,
+        "fine_timestamp": 905632627,
+        "fine_timestamp_encrypted": "kK2Sh0KjDOKsE35ImorO4w==",
+        "time": "2018-12-14T14:55:02.964142Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -125,
+        "snr": -8,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39976,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 6,
+  "confirmed": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      218,
+      1,
+      204,
+      248,
+      0,
+      0,
+      37,
+      144,
+      1,
+      0,
+      188,
+      208,
+      205,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:55:34.249413209Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF7BW125",
+    "airtime": 66816000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1645976972,
+        "fine_timestamp": 99725312,
+        "fine_timestamp_encrypted": "ghAv6KAlyA0Bzp05M90ROA==",
+        "time": "2018-12-14T14:55:33.15824Z",
+        "channel": 6,
+        "rssi": -117,
+        "snr": -7,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39974,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      191,
+      1,
+      152,
+      251,
+      0,
+      0,
+      41,
+      144,
+      1,
+      0,
+      22,
+      146,
+      205,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:56:22.031693138Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1954941660,
+        "fine_timestamp": 537418766,
+        "fine_timestamp_encrypted": "WPlkx/Ya1IdzfD/KgrPqsw==",
+        "time": "2018-12-14T14:56:21.921757Z",
+        "channel": 6,
+        "rssi": -127,
+        "snr": -21,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1954941660,
+        "fine_timestamp": 537419079,
+        "fine_timestamp_encrypted": "wSomMegEHLzX/FzEGn41Vg==",
+        "time": "2018-12-14T14:56:21.921757Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -116,
+        "snr": -19,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1693740484,
+        "fine_timestamp": 537417509,
+        "fine_timestamp_encrypted": "hxjREvqYh3Ww4dofadgOYA==",
+        "time": "2018-12-14T14:56:20.921755Z",
+        "channel": 6,
+        "rssi": -120,
+        "snr": -7,
+        "rf_chain": 0,
+        "latitude": 50.93463,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1693740484,
+        "fine_timestamp": 537415278,
+        "fine_timestamp_encrypted": "u5UaDpSb7q2cYcgnD7hNcg==",
+        "time": "2018-12-14T14:56:20.921755Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -132,
+        "snr": -21,
+        "rf_chain": 0,
+        "latitude": 50.93463,
+        "longitude": -1.39975,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      191,
+      1,
+      152,
+      251,
+      0,
+      0,
+      41,
+      144,
+      1,
+      0,
+      22,
+      146,
+      205,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:56:26.776459891Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 1984767812,
+        "time": "2018-12-14T14:56:26.769018Z",
+        "channel": 0,
+        "rssi": -115,
+        "snr": -13.2,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1698558892,
+        "fine_timestamp": 355819719,
+        "fine_timestamp_encrypted": "+jPJe3+9DtO0U7znxrIPIg==",
+        "time": "2018-12-14T14:56:25.740163Z",
+        "channel": 5,
+        "rssi": -118,
+        "snr": -4,
+        "rf_chain": 0,
+        "latitude": 50.93463,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1698558892,
+        "fine_timestamp": 355817890,
+        "fine_timestamp_encrypted": "f2mcq7vNKhZ77Yp9QZ1bng==",
+        "time": "2018-12-14T14:56:25.740163Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -125,
+        "snr": -10,
+        "rf_chain": 0,
+        "latitude": 50.93463,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1959760060,
+        "fine_timestamp": 355822937,
+        "fine_timestamp_encrypted": "H15URxexI06iYiWUDAAybA==",
+        "time": "2018-12-14T14:56:26.74016Z",
+        "channel": 5,
+        "rssi": -129,
+        "snr": -23,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1959760060,
+        "fine_timestamp": 355820728,
+        "fine_timestamp_encrypted": "LRVPS8TR40USWA6BhmRvlg==",
+        "time": "2018-12-14T14:56:26.74016Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -121,
+        "snr": -16,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      180,
+      1,
+      107,
+      252,
+      0,
+      0,
+      42,
+      144,
+      1,
+      0,
+      158,
+      193,
+      207,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:56:52.163235576Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2010147620,
+        "time": "2018-12-14T14:56:52.155337Z",
+        "channel": 2,
+        "rssi": -97,
+        "snr": -12.8,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1723938692,
+        "fine_timestamp": 735625719,
+        "fine_timestamp_encrypted": "l6LMhqbdDcsNQTJgH+fGRQ==",
+        "time": "2018-12-14T14:56:51.119965Z",
+        "channel": 7,
+        "rssi": -119,
+        "snr": -2,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1723938692,
+        "fine_timestamp": 735626032,
+        "fine_timestamp_encrypted": "z3lDfg/853Xaa3bdq7VGLA==",
+        "time": "2018-12-14T14:56:51.119965Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -123,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 193653156,
+        "fine_timestamp_encrypted": "8acE7iOo+V1xu00t+CE92Q==",
+        "time": "2018-12-14T14:56:51.119966Z",
+        "channel": 7,
+        "rssi": -140,
+        "snr": -22,
+        "rf_chain": 0,
+        "latitude": 50.88959,
+        "longitude": -1.38297,
+        "altitude": 9
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 193653156,
+        "fine_timestamp_encrypted": "tczAiYGx4FgcvAxyfqOrRQ==",
+        "time": "2018-12-14T14:56:51.119966Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -134,
+        "snr": -16,
+        "rf_chain": 0,
+        "latitude": 50.88959,
+        "longitude": -1.38297,
+        "altitude": 9
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1985139844,
+        "fine_timestamp": 735622479,
+        "fine_timestamp_encrypted": "QeVTB0Q4hABKT/j8Z9KWwQ==",
+        "time": "2018-12-14T14:56:52.119958Z",
+        "channel": 7,
+        "rssi": -131,
+        "snr": -18,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1985139844,
+        "fine_timestamp": 735625847,
+        "fine_timestamp_encrypted": "55NlmI6hb06AZUCImNBLxA==",
+        "time": "2018-12-14T14:56:52.119958Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -119,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      180,
+      1,
+      107,
+      252,
+      0,
+      0,
+      42,
+      144,
+      1,
+      0,
+      158,
+      193,
+      207,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:56:58.386890568Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1991242364,
+        "fine_timestamp": 838139586,
+        "fine_timestamp_encrypted": "7SE57P+LfgbgXz2iHaPE9w==",
+        "time": "2018-12-14T14:56:58.222482Z",
+        "channel": 6,
+        "rssi": -127,
+        "snr": -16,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 1991242364,
+        "fine_timestamp": 838140759,
+        "fine_timestamp_encrypted": "Rr7686W2Z5K2qjuIQoB/5w==",
+        "time": "2018-12-14T14:56:58.222482Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -115,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1730041204,
+        "fine_timestamp": 838138994,
+        "fine_timestamp_encrypted": "nQLtfhr2w8MjGUf6FEHq6Q==",
+        "time": "2018-12-14T14:56:57.222477Z",
+        "channel": 6,
+        "rssi": -120,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 62
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1730041204,
+        "fine_timestamp": 838135730,
+        "fine_timestamp_encrypted": "DupDwmG3jVJTth8U5GOP+w==",
+        "time": "2018-12-14T14:56:57.222477Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -129,
+        "snr": -14,
+        "rf_chain": 0,
+        "latitude": 50.93464,
+        "longitude": -1.39977,
+        "altitude": 62
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      186,
+      1,
+      7,
+      252,
+      0,
+      0,
+      33,
+      144,
+      1,
+      0,
+      161,
+      138,
+      210,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:57:22.359390036Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2040350588,
+        "time": "2018-12-14T14:57:22.351742Z",
+        "channel": 2,
+        "rssi": -114,
+        "snr": -16.2,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 223856100,
+        "fine_timestamp": 58108157,
+        "fine_timestamp_encrypted": "mB6jJ8rq9HEHEGjNUzVDjQ==",
+        "time": "2018-12-14T14:57:21.322932Z",
+        "channel": 7,
+        "rssi": -139,
+        "snr": -22,
+        "rf_chain": 0,
+        "latitude": 50.88958,
+        "longitude": -1.38297,
+        "altitude": 9
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 223856100,
+        "fine_timestamp_encrypted": "dRKX1bTVrKOefj0W5+zSZQ==",
+        "time": "2018-12-14T14:57:21.322932Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -135,
+        "snr": -17,
+        "rf_chain": 0,
+        "latitude": 50.88958,
+        "longitude": -1.38297,
+        "altitude": 9
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2015342796,
+        "fine_timestamp": 938592030,
+        "fine_timestamp_encrypted": "aTZjXtDJKUnZCv5TjgkKOw==",
+        "time": "2018-12-14T14:57:22.322928Z",
+        "channel": 7,
+        "rssi": -130,
+        "snr": -18,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2015342796,
+        "fine_timestamp": 938594075,
+        "fine_timestamp_encrypted": "551W9N510xSR4uks4Muuiw==",
+        "time": "2018-12-14T14:57:22.322928Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -118,
+        "snr": -10,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1754141652,
+        "fine_timestamp": 938593507,
+        "fine_timestamp_encrypted": "QZdhTuHuseJ89qaxaaBM/A==",
+        "time": "2018-12-14T14:57:21.322927Z",
+        "channel": 7,
+        "rssi": -120,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93467,
+        "longitude": -1.39976,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1754141652,
+        "fine_timestamp": 938593957,
+        "fine_timestamp_encrypted": "3gjnNYAXp8ZAXyVnbPHhxg==",
+        "time": "2018-12-14T14:57:21.322927Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -126,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93467,
+        "longitude": -1.39976,
+        "altitude": 63
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      186,
+      1,
+      7,
+      252,
+      0,
+      0,
+      33,
+      144,
+      1,
+      0,
+      161,
+      138,
+      210,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:57:28.462202172Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2046448860,
+        "time": "2018-12-14T14:57:28.45494Z",
+        "channel": 0,
+        "rssi": -120,
+        "snr": -9.5,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1760239924,
+        "fine_timestamp": 36855171,
+        "fine_timestamp_encrypted": "IisXk3g7r6B/zh5hp9tpzg==",
+        "time": "2018-12-14T14:57:27.421199Z",
+        "channel": 5,
+        "rssi": -117,
+        "snr": -1,
+        "rf_chain": 0,
+        "latitude": 50.93467,
+        "longitude": -1.39976,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1760239924,
+        "fine_timestamp": 36855704,
+        "fine_timestamp_encrypted": "3auy12pZW5cNcjXbvIm13g==",
+        "time": "2018-12-14T14:57:27.421199Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -129,
+        "snr": -12,
+        "rf_chain": 0,
+        "latitude": 50.93467,
+        "longitude": -1.39976,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2021441060,
+        "fine_timestamp": 36858319,
+        "fine_timestamp_encrypted": "Dkv27fEc5p3t3GyTMiAtew==",
+        "time": "2018-12-14T14:57:28.421196Z",
+        "channel": 5,
+        "rssi": -133,
+        "snr": -19,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2021441060,
+        "fine_timestamp": 36855743,
+        "fine_timestamp_encrypted": "GEVh2S2sjUix1gchYRxGSQ==",
+        "time": "2018-12-14T14:57:28.421196Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -123,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39404,
+        "altitude": 63
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      191,
+      1,
+      103,
+      251,
+      0,
+      0,
+      38,
+      144,
+      1,
+      0,
+      133,
+      93,
+      213,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:57:52.555413997Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2070542828,
+        "time": "2018-12-14T14:57:52.546862Z",
+        "channel": 0,
+        "rssi": -119,
+        "snr": -6.8,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2045535012,
+        "time": "2018-12-14T14:57:52.515162Z",
+        "channel": 5,
+        "rssi": 0,
+        "snr": -12.5,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39403,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2045535012,
+        "fine_timestamp": 130820734,
+        "fine_timestamp_encrypted": "qwqEhTeWJVD16lYZbordJg==",
+        "time": "2018-12-14T14:57:52.515162Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -121,
+        "snr": -13,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39403,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1784333884,
+        "fine_timestamp": 130819481,
+        "fine_timestamp_encrypted": "Ylwjsv3YGG53KmHbZgsiMg==",
+        "time": "2018-12-14T14:57:51.515161Z",
+        "channel": 5,
+        "rssi": -121,
+        "snr": -7,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39975,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1784333884,
+        "fine_timestamp": 130819449,
+        "fine_timestamp_encrypted": "KZv4gIHdnc1hRPx8UYeY5Q==",
+        "time": "2018-12-14T14:57:51.515161Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -127,
+        "snr": -11,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39975,
+        "altitude": 63
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      191,
+      1,
+      103,
+      251,
+      0,
+      0,
+      38,
+      144,
+      1,
+      0,
+      133,
+      93,
+      213,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:57:59.123580679Z",
+    "frequency": 868.3,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2077106660,
+        "time": "2018-12-14T14:57:59.114723Z",
+        "channel": 1,
+        "rssi": -114,
+        "snr": -8.8,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1790897716,
+        "fine_timestamp": 694651112,
+        "fine_timestamp_encrypted": "B2eWlcJT5mCLL0gWtlKNQw==",
+        "time": "2018-12-14T14:57:58.078993Z",
+        "channel": 6,
+        "rssi": -120,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39975,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1790897716,
+        "fine_timestamp": 694652102,
+        "fine_timestamp_encrypted": "kWmu1S5nsJ+2GOZFz/1gkQ==",
+        "time": "2018-12-14T14:57:58.078993Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -127,
+        "snr": -12,
+        "rf_chain": 0,
+        "latitude": 50.93466,
+        "longitude": -1.39975,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2052098836,
+        "fine_timestamp": 694654234,
+        "fine_timestamp_encrypted": "aF9+6wd9Mp65HSHDnYst9Q==",
+        "time": "2018-12-14T14:57:59.078989Z",
+        "channel": 6,
+        "rssi": -125,
+        "snr": -13,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39403,
+        "altitude": 63
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2052098836,
+        "fine_timestamp": 694654044,
+        "fine_timestamp_encrypted": "4JaKwWButZBR/jfYHES47g==",
+        "time": "2018-12-14T14:57:59.078989Z",
+        "antenna": 1,
+        "channel": 22,
+        "rssi": -118,
+        "snr": -9,
+        "rf_chain": 0,
+        "latitude": 50.93536,
+        "longitude": -1.39403,
+        "altitude": 63
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      188,
+      1,
+      227,
+      250,
+      0,
+      0,
+      43,
+      144,
+      1,
+      0,
+      16,
+      163,
+      217,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:58:22.74929296Z",
+    "frequency": 868.5,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2100737988,
+        "time": "2018-12-14T14:58:22.741636Z",
+        "channel": 2,
+        "rssi": -115,
+        "snr": -16.5,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 284243444,
+        "fine_timestamp": 179614510,
+        "fine_timestamp_encrypted": "jZJcEJYGH1kHjba5O7Uong==",
+        "time": "2018-12-14T14:58:21.710321Z",
+        "channel": 7,
+        "rssi": -137,
+        "snr": -20,
+        "rf_chain": 0,
+        "latitude": 50.88958,
+        "longitude": -1.38297,
+        "altitude": 10
+      },
+      {
+        "gtw_id": "eui-7276fffffe010292",
+        "timestamp": 284243444,
+        "fine_timestamp_encrypted": "PZUmfUF4nvnkkFAvdaBtQA==",
+        "time": "2018-12-14T14:58:21.710321Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -135,
+        "snr": -18,
+        "rf_chain": 0,
+        "latitude": 50.88958,
+        "longitude": -1.38297,
+        "altitude": 10
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1814529036,
+        "fine_timestamp": 325981078,
+        "fine_timestamp_encrypted": "va8NOkCHsM1sBf3ZIdCi3Q==",
+        "time": "2018-12-14T14:58:21.710315Z",
+        "channel": 7,
+        "rssi": -120,
+        "snr": -3,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1814529036,
+        "fine_timestamp": 325981571,
+        "fine_timestamp_encrypted": "PFBpFfkYkxVuy4N/fq3kgA==",
+        "time": "2018-12-14T14:58:21.710315Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -123,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2075730148,
+        "time": "2018-12-14T14:58:22.710315Z",
+        "channel": 7,
+        "rssi": 0,
+        "snr": -17.2,
+        "rf_chain": 0,
+        "latitude": 50.93535,
+        "longitude": -1.39404,
+        "altitude": 64
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2075730148,
+        "fine_timestamp": 325981229,
+        "fine_timestamp_encrypted": "vZ7YyLKOEd9ZDqNayVoszw==",
+        "time": "2018-12-14T14:58:22.710315Z",
+        "antenna": 1,
+        "channel": 23,
+        "rssi": -118,
+        "snr": -21,
+        "rf_chain": 0,
+        "latitude": 50.93535,
+        "longitude": -1.39404,
+        "altitude": 64
+      }
+    ]
+  }
+}
+{
+  "app_id": "greenhouse_sensor_elec6245",
+  "dev_id": "stm32_sensor",
+  "hardware_serial": "692B69D400000000",
+  "port": 15,
+  "counter": 0,
+  "confirmed": true,
+  "is_retry": true,
+  "payload_raw": {
+    "type": "Buffer",
+    "data": [
+      188,
+      1,
+      227,
+      250,
+      0,
+      0,
+      43,
+      144,
+      1,
+      0,
+      16,
+      163,
+      217,
+      66
+    ]
+  },
+  "metadata": {
+    "time": "2018-12-14T14:58:28.673300609Z",
+    "frequency": 868.1,
+    "modulation": "LORA",
+    "data_rate": "SF12BW125",
+    "airtime": 1646592000,
+    "coding_rate": "4/5",
+    "gateways": [
+      {
+        "gtw_id": "eui-b827ebfffe2d3798",
+        "timestamp": 2106662932,
+        "time": "2018-12-14T14:58:28.666133Z",
+        "channel": 0,
+        "rssi": -120,
+        "snr": -9,
+        "rf_chain": 1,
+        "latitude": 50.9354,
+        "longitude": -1.3939,
+        "altitude": 60
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2081655084,
+        "time": "2018-12-14T14:58:28.635255Z",
+        "channel": 5,
+        "rssi": 0,
+        "snr": -11.2,
+        "rf_chain": 0,
+        "latitude": 50.93535,
+        "longitude": -1.39404,
+        "altitude": 64
+      },
+      {
+        "gtw_id": "eui-7276fffffe0103f0",
+        "timestamp": 2081655084,
+        "fine_timestamp": 250918121,
+        "fine_timestamp_encrypted": "BurN94LsiHWFegSgYhIApg==",
+        "time": "2018-12-14T14:58:28.635255Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": -124,
+        "snr": -16,
+        "rf_chain": 0,
+        "latitude": 50.93535,
+        "longitude": -1.39404,
+        "altitude": 64
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1820453980,
+        "fine_timestamp": 250917602,
+        "fine_timestamp_encrypted": "c4xcPdV+U6iHYC6XRgwvqA==",
+        "time": "2018-12-14T14:58:27.635259Z",
+        "channel": 5,
+        "rssi": -118,
+        "snr": -5,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39975,
+        "altitude": 61
+      },
+      {
+        "gtw_id": "eui-7276fffffe01028c",
+        "timestamp": 1820453980,
+        "time": "2018-12-14T14:58:27.635259Z",
+        "antenna": 1,
+        "channel": 21,
+        "rssi": 0,
+        "snr": -9.5,
+        "rf_chain": 0,
+        "latitude": 50.93465,
+        "longitude": -1.39975,
+        "altitude": 61
+      }
+    ]
+  }
+}
+
